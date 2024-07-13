@@ -6,7 +6,20 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        sample2();
+        sample4();
+    }
+
+    public static void sample4(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ievadiet skaitli!");
+        int a = sc.nextInt();
+        sc.nextLine();
+
+        System.out.println("Ievadiet frāzi!");
+        String b = sc.nextLine();
+
+        System.out.println("aaaa");
+        System.out.println(b);
     }
 
     public static void sample1(){
@@ -21,6 +34,7 @@ public class Main {
         List<Integer> cc = new ArrayList<>();
         cc.add(1);
         cc.add(4);
+        cc.set(0, 999);
 
         System.out.println(cc.get(0));
     }
