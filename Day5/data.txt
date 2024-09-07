@@ -1,0 +1,1 @@
+[{"name":"Jānis","lastName":"Bērziņš"},{"name":"Juris","lastName":"Ābols"}]
